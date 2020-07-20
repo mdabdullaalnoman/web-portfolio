@@ -1,0 +1,117 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+}
+
+h1{
+    font-size: 50px;
+}
+.orange-name-hilight{ color: orangered;}
+.half-width{
+  width: 40%;
+  float: left;
+  margin-left:5%;
+  padding-left: 2%;
+
+}
+.half-width img{ width: 100%;}
+.top-baner{ background-image: url("images/top-banner.png");
+            background-repeat: no-repeat;}
+section{ height: 500px;
+padding: 50px;}
+.a-button{
+  background-color: orange;
+  text-decoration: none;
+  padding: 10px 20px;
+  color: whitesmoke;
+  font-weight: 900;
+  border-radius: 15px;
+  background-image:linear-gradient(45deg, red,orange);
+}
+.size{ font-size: 45px;}
+.middle-banner{
+  background-image:url("images/dream-bg.png");
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.web{ font-size: 45px;}
+.shado{box-shadow: 10px 10px 40px gray;
+border-radius: 15px;
+height: 80%;
+background-color: lightblue;}
+.area{
+  background-image: url("images/exp-bg.png");
+  background-repeat: no-repeat;
+  background-position: left;
+}
+#full{
+  border-left: 7px solid;
+  border-image: linear-gradient( 180deg, red,green);
+  border-image-slice: 1;
+}
+#baby{
+  border-left: 7px solid;
+  border-image: linear-gradient( 180deg, rgb(0, 255, 221),rgb(100, 128, 0));
+  border-image-slice: 1;
+}
+.noman{font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: 35px;}
+.f{text-align: center;
+}
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Md Noman Website</title>
+    <link rel="stylesheet" href="noman.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@500&family=Quicksand&display=swap" rel="stylesheet">
+</head>
+<body>
+<section class="header">
+    <div class="half-width down">
+        <h1>Hello I'm</h1>
+        <p class="name-hilight"> Noman</p>
+        <p>You might saw me jumping, climbing buildings,and stoping trains. But nobody pays me dime for that work.</p> <br/>
+        <a class="a-batton"target="_blank" href="https://web.facebook.com/?_rdc=1&_rdr">My Facebook</a>
+
+    </div >
+        
+    <div class="half-width">
+        <img src="F:\web deveplopment\Projects\1st-work\personal-website\peter.png"></img>
+    </div>
+</section>
+<section>
+
+    <div class="half-width">
+        <img src="F:\web deveplopment\Projects\1st-work\personal-website\peter_dream.png"></img> <br/><br/><br/>
+    </div>
+
+    <div class="half-width down2">
+        <h1>Biography</h1>
+       
+        <p>Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem lpsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type. </p> <br/>
+        <a class="a-batton"target="_blank" href="https://www.youtube.com/">Go Youtube</a>
+
+    </div >
+        
+    
+</section>
+<section>
+    <div class="one">
+        <img src="F:\web deveplopment\Projects\1st-work\personal-website\latest-work\work-1.png"></img>
+    </div>
+    <div class="one">
+        <img src="F:\web deveplopment\Projects\1st-work\personal-website\latest-work\work-2.jpg"></img>
+    </div>
+    <div class="one">
+        <img src="F:\web deveplopment\Projects\1st-work\personal-website\latest-work\\work-3.jpg"></img>
+    </div>
+</section>
+
+</body>
+</html>
